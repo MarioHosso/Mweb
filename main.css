@@ -112,6 +112,10 @@ nav{
     background-image: url(./img/header/contact-header-us.png);
     box-shadow: 0px 0px 8px purple;
 }
+#h1-Mcar{
+    background-image: url(./img/header/Mcar-header-us.png);
+    box-shadow: 0px 0px 8px yellow;
+}
 .p{
     line-height: 190%;
     font-size: 25px;
@@ -138,7 +142,7 @@ nav{
     background-color: none;
 }
 .map{
-    box-shadow: 3px 0px 9px grey;
+    box-shadow: 0px 0px 20px grey;
     border: lightgrey 3px solid;
     float: left;
     width: 50%;
@@ -185,7 +189,22 @@ nav{
     right: 15px;
     bottom: 25px;
     border-radius: 80px 0px;
-
+}
+.car-img{
+    width: 35%;
+    margin-right: 30px;
+    box-shadow: 0px 0px 20px grey;
+    border: lightgrey 3px solid;
+}
+.Mcar{
+    margin-top: 10%;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
 }
 
 

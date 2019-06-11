@@ -1,0 +1,220 @@
+html,body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d9d9d9;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header-E{
+    text-align: center;
+}
+.h1-E{
+    font-size: 50px;
+    margin: 120px;
+}
+.h3-E{
+    font-size: 22.5px;
+    margin: -50px 50px 30px 50px;
+}
+.choice{
+    margin-top: -380px;
+    margin-bottom: 130px;
+}
+.img-1{
+    display: block;
+}
+ .img-2{
+     display: none;
+}
+
+
+
+.header{
+    z-index: 1000;
+    position: fixed;
+    right: 10px;
+}
+.menu{
+    text-align: right;
+    list-style: none;
+
+}
+.button{
+    border: rgb(197, 197, 197) 3px solid;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #d3d3d3;
+    text-decoration: none;
+}
+.button:hover{
+    color: #d9d9d9;
+    background-color: black;
+}
+li{
+    margin-top: 20px;
+}
+h4{
+    margin-top: -10px;
+}
+
+
+{
+    border: red 1px solid;
+}
+.img-H{
+    border: lightgrey 3px solid;
+    box-shadow: 0px 0px 20px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Gallery-H{
+    border: none;
+    margin-left: 55px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 400px; 
+}
+.info-H{
+    letter-spacing: 1px;
+    text-align: center;
+}
+.link-darget{
+    margin-left: 10px;
+    color: #d9d9d9;
+    background-color: black;
+    text-decoration: none;
+}
+.link-darget:hover{
+    color: black;
+    background-color: #d9d9d9;
+}
+.center{
+    margin: 140px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline;
+}
+.ul{
+    text-align: center;
+    padding-left: 0%;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+}
+.a{
+    text-decoration: none;    
+    padding: 10px;
+}
+.h1{
+    text-align: center;
+    padding: 10px;
+}
+#h1-Landscape{
+    background-image: url(./img/header/Landscape-back-header.png);
+    box-shadow: 0px 0px 8px #5E638B;
+}
+
+#h1-portrait{
+    background-image: url(./img/header/portrait-back-header.png);
+    box-shadow: 0px 0px 8px rgb(168, 78, 26);
+}
+
+#h1-special{
+    background-image: url(./img/header/special-back-header.png);
+    box-shadow: 0px 0px 8px gold;
+}
+
+
+.footer{
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+.go-up{
+    position: fixed;
+    background-color: #cccccc;
+    color: black;
+    text-decoration: none;
+    padding: 12px 22px;
+    right: 15px;
+    bottom: 55px;
+    border-radius: 30px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*iphone 8*/
+@media (max-width:667px) {
+    .Gallery-H{
+        margin-left: auto;
+    }
+    .center{
+        margin: auto;
+    } 
+    .img-1{
+       display: none;
+    }
+    .img-2{
+        display: block;
+    }
+    .h3-E{
+        margin-bottom: -70px;
+    }
+    .choice{
+        margin-top: 0px;
+        margin-bottom: 135px;
+    }
+}
+
+
+/*iphone 8 landscape*/
+@media (max-height:414px) {
+    .Gallery-H{
+        position: relative;
+        margin-left: 22%;   
+    }
+    .center{
+        margin-right: 100px;
+    }
+    
+}
+
+/*iphone 8 plus Landscape*/
+@media screen 
+    and (max-width : 736px) 
+    and (max-height : 414px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation : landscape)  { 
+        .Gallery-H{
+            position: relative;
+            margin-left: 22%;   
+        }
+        .center{
+            margin-right: 190px;
+        }  
+        .choice{
+            margin-top: 100px;
+            margin-bottom: 435px;
+        }  
+}   
+
+
